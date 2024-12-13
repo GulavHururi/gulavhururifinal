@@ -1,0 +1,235 @@
+body{
+    background: linear-gradient(to left, #FF4FAC, #FFCBE7, #FF4FAC);
+} /*https://bobdewebbouwer.com/gradient-verloopkleur-met-css/*/
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+.balk{
+    background-color: #fe1791;
+}
+  .balk{
+    color: #fe1791;
+    margin-top: 0%;
+    }
+    
+   header nav ul{
+        list-style-type: none;
+        display: flex;
+        justify-content: flex-end;
+        gap: 2em;
+        flex-wrap: wrap;
+        font-family: "Notable", sans-serif;font-weight: 600;font-style:normal;
+        }
+    
+    header nav a{
+    text-decoration: none;
+    color:#FE1791;
+    display: flex;
+    }
+    
+    header nav a:hover{
+    color: #92F1EA;
+    text-decoration: underline;
+    }
+    
+.gulaveniajozua{
+ display: flex;
+ justify-content: center;
+}
+
+    .titel{
+        line-height: 40%;
+        text-align: center;
+}
+
+.titel h1{
+    font-family: "Notable", sans-serif;font-weight: 600;font-style:normal;
+    font-size: 4em;
+    color: #FE1791;
+    text-shadow: 2px 2px 2px #0000004f;
+}
+
+.titel h2{
+    font-family: "Bonheur Royale", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 5em;  
+    color: #FF4FAC;
+}
+
+.beluisterenop{
+    display: flex;
+    gap: 2em;
+    align-items: center;
+    background-color: #FFCBE7;
+}
+
+.beluisterenop p{
+    font-family: "Notable", sans-serif;font-weight: 500;font-style:normal;
+    font-size: 1.5em;
+}
+
+.beluisterenop div{
+    display: flex;
+    align-items: center;
+    gap: 1em;
+}
+
+h2{
+    font-family: "Notable", sans-serif;font-weight: 600;font-style:normal;
+        font-size: 2.5em;
+        color: #92F1EA;
+        text-shadow: 2px 2px 2px #0000004f;
+    text-align: center;
+}
+
+p{
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.populairsteafleveringen{
+    display: flex;
+    gap: 2em;
+    overflow-x: scroll;
+    text-align: center;
+    font-family: "Notable", sans-serif;font-weight: 500;font-style:normal;
+}
+
+.populairsteafleveringen img{
+    transition: transform 0.4s ease;
+}
+
+.populairsteafleveringen img:hover{
+    transform: scale(1.1);
+ }
+
+.doemee{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.doemee h3{
+    font-family: "Notable", sans-serif;font-weight: 500;font-style:normal;
+}
+
+.merchandise{
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+    font-family: "Notable", sans-serif;font-weight: 500;font-style:normal;
+    text-align: center;
+}
+
+.merchandise img{
+transition: transform 0.4s ease;
+}
+
+.merchandise img:hover{
+    transform: scale(1.2);
+}
+
+footer{
+    background-color: #FFCBE7;
+    display: flex;
+    justify-content: center;
+    gap: 28em;
+    align-items: center;
+}
+
+footer nav ul{
+    list-style-type: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 200;
+    line-height: 300%;
+}
+
+footer nav a{
+    color: black;
+    text-decoration: none;
+}
+
+footer nav a:hover{
+    text-decoration: none;
+    color: #FE1791;
+}
+
+.socials nav ul{
+    display: flex;
+}
+
+.socials p{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 1em;
+        font-weight: 200;     
+}
+
+.afleveringen{
+    text-align: center;
+    font-family: "Notable", sans-serif;font-weight: 600;font-style:normal;
+    font-size: 2.5em;
+    color: #92F1EA;
+    text-shadow: 2px 2px 2px #0000004f;
+}
+
+.balk2{
+border: #FF8DCA;
+background-color: #FF8DCA;
+color: #FF8DCA;
+}
+
+.episodes{
+gap: 2em;
+justify-content: space-between;
+display: flex;
+line-height: 15pt;
+}
+
+.episodes h3{
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.episodes p{
+    text-align: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1em;
+}
+
+.episodes .play{
+    display: flex;
+    align-items: end;
+    gap: 1em;
+}
+
+.datumentijd{
+    font-size: 1em;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.overonstitel{
+    text-align: center;
+    font-family: "Notable", sans-serif;font-weight: 600;font-style:normal;
+  font-size: 2.5em;
+  color: #92F1EA;
+  text-shadow: 2px 2px 2px #0000004f;
+}
+
+.overonslist nav ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap: 7em;
+}
+
+.overonslist nav ul li{
+    display: flex;
+    gap: 0.5em;
+    background-color: #FF8DCA;
+    border-radius:  50pt;
+}
+
